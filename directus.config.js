@@ -6,7 +6,7 @@ module.exports = function (env) {
         ADMIN_PASSWORD: env.ADMIN_PASSWORD,
         KEY: env.KEY,
         SECRET: env.SECRET,
-
+        CORS_ENABLED: true,
         // Reference: https://docs.railway.app/deploy/exposing-your-app
         PORT: env.PORT,
 
