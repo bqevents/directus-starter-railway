@@ -27,6 +27,7 @@ module.exports = function (env) {
         REDIS_PORT: env.REDISPORT,
         CACHE_ENABLED: env.CACHE_ENABLED,
         CACHE_STORE: 'redis',
+        CACHE_TTL: '30 days',
         REDIS_USERNAME: env.REDISUSER,
         REDIS_PASSWORD: env.REDISPASSWORD,
         // Cloudinary
