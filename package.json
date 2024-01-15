@@ -9,12 +9,15 @@
     "node": ">=12.20.0"
   },
   "dependencies": {
-    "directus": "^10.6.3",
-    "pg": "^8.11.3",
     "@directus/storage-driver-cloudinary": "^10.0.11",
+    "directus": "^10.6.3",
+    "directus-extension-flexible-editor": "^1.1.0",
+    "directus-extension-inline-form-interface": "^1.1.0",
     "directus-extension-tags-m2m-interface": "^0.8.0",
     "directus-extension-wpslug-interface": "^1.1.0",
-    "directus-extension-flexible-editor": "^1.1.0",
-    "directus-extension-inline-form-interface": "^1.1.0"
+    "pg": "^8.11.3"
+  },
+  "devDependencies": {
+    "directus-extension-iconify": "^0.1.0"
   }
 }
