@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@directus/storage-driver-cloudinary": "^10.0.15",
-    "directus": "^10.8.3",
+    "directus": "^11.8.0",
     "pg": "^8.11.3"
   }
 }
